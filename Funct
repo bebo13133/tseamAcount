@@ -1,0 +1,30 @@
+function tseamAcount(arr){
+    let index = 0;
+    let command = arr[index];
+    let start = arr.shift().split(" ");
+    let game = start.slice(1,2);
+    let newArr = [];
+    console.log(start);
+ 
+ 
+    while(command != 'Play!'){
+ 
+        
+       
+    
+        switch(????){
+            
+            case "Install": break;
+            case "Uninstall":
+            case "Update": break;
+            case "Expansion CS-Go" : break;
+            
+           
+        }
+        index++;
+        command = arr[index];
+       
+        
+    }
+ 
+}
