@@ -5,6 +5,33 @@ function tseamAcount(arr){
     let game = start.slice(1,2);
     let newArr = [];
     console.log(start);
+ //*
+let start = arr[0].split(' ')
+let command = arr[0]
+let game = arr[1]
+
+for(let i = 1 ; i< start.length; i++){
+if(command === play){
+break; 
+
+}else if(command === "Install"){
+
+
+
+}else if (commmand === "Uninstall"){
+
+
+}else if (command === "Update"){
+
+
+}else if (command === "Expansion CS-Go"){
+
+
+
+}
+
+ 
+ 
  
  
     while(command != 'Play!'){
